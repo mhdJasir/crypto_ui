@@ -33,7 +33,6 @@ class _FifthSectionState extends State<FifthSection>
         milliseconds: 375,
       ),
     );
-
     imageRevealAnimation = Tween<double>(begin: 500.0, end: 0.0).animate(
         CurvedAnimation(
             parent: controller,
